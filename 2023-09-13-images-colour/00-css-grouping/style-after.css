@@ -1,0 +1,53 @@
+body {
+  /* Text font */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  /* example of responsive text size, include backup above (22px) */
+  font-size: clamp(16px, 3vw, 22px);
+  line-height: 1.5;
+}
+
+main {
+  /* consider ch units instead of px */
+  max-width: 650px;
+  margin: auto;
+}
+
+h1, h2 {
+  /* Display font */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  text-align: center;
+
+  height: auto;
+  /* consider em or rem */
+  width: 230px;
+  margin: auto;
+  padding-top: 10px;  
+  
+  border: solid;
+  /* using px instead of mm */
+  border-width: 1px;
+  background-color: darkturquoise;
+}
+
+h2 {
+  /* Using rems instead of px */
+  margin-top: 2rem;
+}
+
+.enemy {
+  font-weight: bold;
+}
+
+.first {
+  font-style: italic;
+}
+
+.race {
+  list-style-position: inside;
+}
+
+.race ::marker {
+  color: rgb(200, 0, 255);
+}
