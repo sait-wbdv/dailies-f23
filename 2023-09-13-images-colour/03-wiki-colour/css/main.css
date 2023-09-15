@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+
+  font-family: 'Roboto', Arial, sans-serif; 
+  font-size: 22px;
+  line-height: 1.8;
+
+  color: #e6d4b6;
+  background-color: #5d3137;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', Palatino Linotype, Book Antiqua, Palatino, serif;
+  max-width: 85ch;
+}
+
+a {
+  color: #fae16c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 65ch;
+  margin: auto;
+  background-color: #141617;
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.tiny-image {
+  display: block;
+  width: initial;
+  margin-left: 1rem;
+
+  float: right;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+}
