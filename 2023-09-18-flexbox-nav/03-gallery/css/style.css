@@ -1,0 +1,54 @@
+/* primary: #fbdd64 */
+/* secondary: #1d161e */
+
+body {
+  font-family: 'Arvo', serif;
+  /* background-image: url('https://picsum.photos/id/40/1500/3000'); */
+  background-color: #fbdd64;
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  /* justify-content: space-evenly; */
+
+  margin: 0;
+  padding-left: 0;
+
+  list-style: none;
+  background-color: hsl(293, 15%, 10%, .9);
+}
+
+nav li {
+  flex: auto;
+}
+
+nav a {
+  display: block;
+
+  padding: 1rem;
+  border-bottom: 3px solid transparent;
+
+  font-variant: small-caps;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #fbdd64;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+img {
+  display: block;
+}
