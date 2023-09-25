@@ -1,0 +1,42 @@
+header, main {
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  max-width: 85ch;
+  margin: auto;
+}
+
+nav ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+
+  background-color: black;
+}
+
+a {
+  display: block;
+  padding: 1rem;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  color: black;
+  background-color: white;
+}
+
+
+@media (min-width: 800px) {
+  /* This css is only added to the page when the screen is 800px or wider */
+  nav ul {
+    display: flex;
+    justify-content: flex-end;  
+  }
+}
