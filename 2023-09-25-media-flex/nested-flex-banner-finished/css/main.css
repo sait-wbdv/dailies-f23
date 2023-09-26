@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > * { 
+  /* Uncomment the following line and see what happens! Inspect the flexbox to see what's happening. */
+  /* flex: auto; */
+}
+
+nav ul, input {
+  display: none;
+}
+
+input:checked + ul {
+  display: block;
+}
+
+@media (min-width: 50rem) {
+  /* This css is only added to the page when the screen is 50rem or wider */
+  label {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

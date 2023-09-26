@@ -1,0 +1,16 @@
+/* Primary Navigation */
+nav ul {
+  background-color: black;
+}
+
+@media (width > 50em) {
+  body {
+    font-size: 22px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+

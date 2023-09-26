@@ -1,0 +1,17 @@
+header{
+  border: 1px solid blue;
+}
+
+a {
+  text-align: center;
+  color: darkslategrey;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  border: 1px solid grey;
+}
+
+a:hover {
+  background-color: darkslategrey;
+  color: white;
+}
