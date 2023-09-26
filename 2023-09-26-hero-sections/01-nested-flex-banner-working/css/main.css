@@ -14,7 +14,6 @@ input {
 
 nav ul {
   display: none;
-  justify-content: space-evenly;
 }
 
 @media screen and (width > 40rem) {
