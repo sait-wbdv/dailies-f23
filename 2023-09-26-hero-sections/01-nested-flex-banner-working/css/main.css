@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > * { 
+  /* Uncomment the following line and see what happens! Inspect the flexbox to see what's happening. */
+  /* flex: auto; */
+}
+
+input {
+  display: none;
+}
+
+nav ul {
+  display: none;
+  justify-content: space-evenly;
+}
+
+@media screen and (width > 40rem) {
+  label {
+    display: none;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
