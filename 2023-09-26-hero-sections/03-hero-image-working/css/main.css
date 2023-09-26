@@ -1,0 +1,32 @@
+body {
+  font-size: 128px;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+
+  background-color: goldenrod;
+  background-image: url(https://picsum.photos/id/46/2000/1500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+} 
+
+p {
+  font-family: 'Nabla', Arial, Helvetica, cursive;
+  font-size: clamp(64px, 10vw, 128px);
+  
+  margin: 0;
+
+  padding-top: 15vh;
+}
+
+@media screen and (width > 40rem) {
+  p {
+    padding-top: 10vh
+  }
+}
