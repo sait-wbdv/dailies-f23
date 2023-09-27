@@ -1,0 +1,18 @@
+/* CSS Grid code here */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+article {
+  width: 10rem;
+}
+
+article:nth-child(even) {
+  width: 20rem;
+}
+
