@@ -1,0 +1,40 @@
+/* Make header visible */
+header {
+  border: 1px solid blue;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > * { 
+  /* Uncomment the following line and see what happens! Inspect the flexbox to see what's happening. */
+  /* flex: auto; */
+}
+
+label, input {
+  display: none;
+}
+
+/* Primary Navigation */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+
+  text-align: center;
+  color: darkslategrey;
+  text-decoration: none;
+
+  border: 1px solid grey;
+}
+
+nav a:hover {
+  background-color: darkslategrey;
+  color: white;
+}

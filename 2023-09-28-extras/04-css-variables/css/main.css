@@ -1,0 +1,45 @@
+/* Body text */
+:root {
+  --accent-bg: hsl(205, 88%, 25%);
+  --cta-bg: hsl(150, 100%, 60%);
+  --cta: hsl(50, 50%, 20%);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+
+  color: hsl(130, 88%, 95%);
+  background-color: var(--cta-bg);
+  /* background-image: linear-gradient(45deg, hsl(225, 100%, 65%), hsl(205, 100%, 65%));
+  background-image: linear-gradient(45deg, red, hsl(205, 100%, 65%)); */
+
+  min-height: 100vh;
+}
+
+/* Call-to-action container */
+.cta {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  max-width: 30ch;
+  
+  border-radius: 1rem;
+  background-color: var(--accent-bg);
+}
+
+/* Call to Action "button" */
+.cta a, .cta a:visited {
+  margin: auto;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: fit-content;
+  
+  font-family: "Carter One", serif;
+  text-decoration: none;
+  
+  background-color: var(--cta-bg);
+  color: var(--cta);
+  border-radius: .5rem;
+}
