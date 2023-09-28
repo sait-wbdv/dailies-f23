@@ -1,0 +1,24 @@
+/* Start by defining grid-template-columns on the container */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+  width: 80vmin;
+  margin: auto;
+}
+
+section > * {
+  aspect-ratio: 1/1;
+  background-color: white;
+}
+
+article.black {
+  background-color: black;
+}
