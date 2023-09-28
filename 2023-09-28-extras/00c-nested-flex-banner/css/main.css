@@ -8,11 +8,22 @@ header > * {
   /* flex: auto; */
 }
 
-label, input {
+input {
   display: none;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-evenly;
+  display: none;
+}
+
+@media screen and (width > 40em) {
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  label {
+    display: none;
+  }
 }
