@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review</title>
+  <style>
+    html, body {
+      font-size: 32px;
+    }
+
+    section {
+      padding-bottom: 3rem;
+      margin-bottom: 3rem;
+    }
+    
+    section:last-child {
+      margin: 0;
+    }
+    
+    h1 + p {
+      font-size: 22px;
+    }
+    
+    h1 + p, h2 + p {
+      border-left: 3px solid goldenrod;
+      padding-left: 2rem;
+    }
+
+    .intro {
+      border-bottom: 1px solid black;
+    }
+
+    .breeds::after {
+      content: '';
+      border-bottom: 1px solid black;
+      width: 10rem;
+      display: block;
+      margin: auto;
+    }
+
+    li {
+      font-size: 1rem;
+    }
+    
+    /* Mobile-first */
+    @media (width > 50ch) {
+      li {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="intro">
+    <h1>Doggies</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime velit saepe repudiandae cum doloremque, eius, iste aspernatur beatae distinctio ratione esse commodi! Assumenda quos harum fugit ipsa ullam nisi. Error illum ea, nesciunt aperiam, a rem necessitatibus sint odio numquam nihil eum ullam eligendi quae maxime eaque. Adipisci, consectetur reiciendis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit velit quasi placeat dolor cumque nostrum accusantium labore incidunt optio culpa perferendis ut minus quis, omnis, iure voluptate debitis earum.</p>
+    <ul>
+      <li>Breed 1</li>
+      <li>Breed 2</li>
+      <li>Breed 3
+        <ul>
+          <li>Sub-breed 1</li>
+          <li>Sub-breed 2</li>
+          <li>Sub-breed 3</li>
+        </ul>
+      </li>
+      <li>Breed 4</li>
+    </ul>
+  </section>
+
+  <section class="breeds">
+    <h2>Breeds</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati optio omnis modi, commodi nulla hic debitis officia laudantium excepturi praesentium accusamus iste consequuntur nostrum aspernatur! Rem assumenda reprehenderit impedit quis! Doloremque neque, soluta delectus corporis odio ut? Officia, sapiente fugit.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id corporis nemo minus magni? Voluptatibus dicta inventore repudiandae quo? Maxime, suscipit?</p>
+
+  </section>
+
+</body>
+</html>
